@@ -85,9 +85,46 @@ ul {
 @media screen and (max-width: 768px) {
     .title_1 {
         font-size: 40px;
+        width: 100%;
+    }
+
+    .title1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 
     .subtitle_1 {
         width: 60%;
+    }
+
+    .ptm {
+        font-size: 30px;
+    }
+
+    .title2 {
+        text-align: center;
+        border-bottom: solid black 4px;
+    }
+
+    .part-p {
+        text-align: center;
+    }
+
+    .part-title {
+        text-align: center;
+    }
+
+    .read-button {
+        text-align: center;
+    }
+
+    .parts {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
