@@ -51,12 +51,12 @@ ul {
     background-color: rgb(142, 168, 153);
     box-shadow: -1px 1px 1px 1px rgba(0, 0, 0, 0.2);
     transition: ease 0.3s;
+    display: inline-block;
 }
 
 .read-button:hover {
     box-shadow: -2px 5px 5px 1px rgba(0, 0, 0, 0.1);
     scale: 1.1;
-    padding: 15px 50px;
 }
 
 .text-list {
