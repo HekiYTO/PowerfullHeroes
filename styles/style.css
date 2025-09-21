@@ -33,6 +33,8 @@ main {
      font-family: "Unbounded", sans-serif;
     font-size: 100px;
     width: 60%;
+    opacity: .85;
+  padding-top: 120px;
 }
 
 .subtitle_1 {
@@ -108,6 +110,7 @@ ul {
     .title_1 {
         font-size: 40px;
         width: 100%;
+        opacity: .9;
     }
 
     .title1 {
