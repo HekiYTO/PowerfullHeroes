@@ -1,0 +1,43 @@
+
+.text {
+   padding: 2%;
+}
+
+header {
+    position: inherit;
+}
+
+.textp {
+     font-family: "Roboto Condensed", sans-serif;
+     margin-top: 1%;
+}
+
+p {
+    padding: 10px 0;
+    line-height: 30px;
+     font-family: "Roboto Condensed", sans-serif;
+
+}
+
+main img {
+    display: block;
+    width: 75%;
+    margin: 0 auto;
+    border:solid black 2px;
+    height: auto;
+}
+
+.imgp {
+    font-style: italic;
+    text-align: center;
+}
+
+.fl::first-letter {
+font-size: 24px;
+}
+
+@media screen and (max-width: 768px) {
+    main img {
+        width: 100%;
+    }
+}
