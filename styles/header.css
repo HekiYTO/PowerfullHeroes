@@ -122,5 +122,9 @@ body {
     .container {
         max-width: 768px;
     }
+
+    .mobile-hide {
+        display: none;
+    }
     
 }
